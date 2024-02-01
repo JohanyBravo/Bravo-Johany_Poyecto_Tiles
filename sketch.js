@@ -1,5 +1,5 @@
 const celdas = [];
-const RETICULA = 8;
+const RETICULA = 15;
 
 const azulejos = [];
 const NA = 21;
@@ -166,7 +166,7 @@ function preload() {
 function setup() {
   createCanvas(1080, 1080);
 
-  frameRate(4);
+  // frameRate(8);
 
   ancho = width / RETICULA;
   alto = height / RETICULA;
